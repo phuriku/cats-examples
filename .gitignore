@@ -1,0 +1,34 @@
+### ----- IDE-Specific Exclusions ------ ###
+.idea/
+.env
+*.iml
+
+### ---- Runtime/Compile Exclusions ---- ###
+bin/boot/
+dist/
+logs/
+out/
+project/project
+target/
+*.log
+
+### - Dependency Management Exclusions - ###
+.ivyjars/
+lib/
+lib_managed/
+
+### ----- Miscellaneous Exclusions ----- ###
+.DS_Store
+*~
+*#
+.#*
+*.pyc
+*.swp
+*.tmproj
+sbt-launch*.jar
+
+### ------- CodeStyle Inclusion -------- ###
+!.idea/codeStyleSettings.xml
+
+### ----- Swagger JS Lib Inclusion ----- ###
+!**/webapp/docs/lib
